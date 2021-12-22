@@ -20,30 +20,71 @@ footer{
 	top: 0;
 }
 #profile{
+	flex-wrap: wrap;
 	position: fixed;
-	top:30%;
+	top:40%;
 	left:50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
 #profile > h1{
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 60px;
+	font-size: 4vw;
 	margin-bottom: 5px;
 }
 #profile > h2{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: normal;
-font-size:24px;
+font-size:2vw;
 }
 img[src*="profile.jpg"]{
 	border-style: solid;
 	border-radius: 25px;
-	border-width: 6px;
+	border-width: 10px;
 	border-color: rgb(255, 255, 255);
 }
 img[src*="banner.png"]{
 	border-bottom: rgb(255, 255, 255);
 	border-bottom-style: solid;
 	border-bottom-width:10px;
+}
+
+#menubarright .btn{
+
+	float:right;
+	overflow:hidden;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	margin-top: 20px;
+	margin-left: 4vw;
+	margin-right: 2vw;
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bolder;
+	font-size: 1.2vw;
+	border-radius: 5px;
+}
+
+#menubarleft .btn{
+
+	float:left;
+	overflow:hidden;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 15%;
+	margin-top: 20px;
+	margin-left: 2vw;
+	margin-right: 4vw;
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bolder;
+	font-size: 1.2vw;
+	border-radius: 5px;
 }
