@@ -23,13 +23,13 @@ footer{
 	flex-wrap: wrap;
 	position: fixed;
 	top:40%;
-	left:50%;
-	transform: translate(-50%, -50%);
+	left:28.5%;
+
 	text-align: center;
 }
 #profile > h1{
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 4vw;
+	font-size: 5vw;
 	margin-bottom: 5px;
 }
 #profile > h2{
@@ -37,7 +37,14 @@ footer{
 	font-weight: normal;
 	font-size:2vw;
 }
+h3{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 4.5vw;
+	margin-bottom: 5px;
+}
 img[src*="profile.jpg"]{
+	height: 12vw;
 	border-style: solid;
 	border-radius: 25px;
 	border-width: 10px;
